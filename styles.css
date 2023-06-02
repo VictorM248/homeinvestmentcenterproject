@@ -17,6 +17,8 @@ nav {
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.6);
     border-bottom: 1px solid #fff;
+    z-index: 3;
+    backdrop-filter: blur(10px);
 
 }
 
@@ -107,9 +109,10 @@ iframe {
     position: relative;
     top: -25vh;
     /*transform: translateY(-50%);*/
-    height: 80vh;
+    /*height: 80vh;*/
     margin: auto;
-    padding-top: 30px;
+    padding-top: 30px; 
+    
 } 
 
 h1 {
